@@ -1,0 +1,38 @@
+# Bytecode compilato di Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Impostazioni locali e credenziali segrete
+*.env
+.env
+*.log
+*.sqlite3
+db.sqlite3
+instance/
+
+# File di migrazione di Django
+*/migrations/*.py
+*/migrations/*.pyc
+
+# File statici e media generati
+staticfiles/
+media/
+
+# File di cache
+*.swp
+*.swo
+*.DS_Store
+
+# Configurazioni di IDE/editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# File di traduzione compilati
+locale/*/LC_MESSAGES/*.mo
