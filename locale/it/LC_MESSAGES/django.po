@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR holovin@mail.com, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-03-23 16:36+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: estintori/settings.py:111
+msgid "English"
+msgstr "Inglese"
+
+#: estintori/settings.py:112
+msgid "Italiano"
+msgstr "Italiano"
+
+#: extinguisher/models.py:14
+msgid "Extinguisher Code"
+msgstr "Codice Estintore"
+
+#: extinguisher/models.py:15
+msgid "Extinguisher Type"
+msgstr "Tipo di Estintore"
+
+#: extinguisher/models.py:16
+msgid "Net Weight (kg)"
+msgstr "Peso Netto (kg)"
+
+#: extinguisher/models.py:17
+msgid "Manufacture Date"
+msgstr "Data di Fabbricazione"
+
+#: extinguisher/models.py:18
+msgid "Revision Expiry Date"
+msgstr "Scadenza Revisione"
+
+#: extinguisher/models.py:19
+msgid "Test Expiry Date"
+msgstr "Scadenza Collaudo"
+
+#: extinguisher/models.py:20
+msgid "Next Maintenance Date"
+msgstr "Data Prossima Manutenzione"
+
+#: extinguisher/models.py:21
+msgid "Location"
+msgstr "Posizione"
+
+#: extinguisher/models.py:22
+msgid "Active/Inactive"
+msgstr "Attivo/Inattivo"
+
+#: extinguisher/models.py:24
+msgid "Owner"
+msgstr "Proprietario"
