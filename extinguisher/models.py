@@ -25,3 +25,7 @@ class FireExtinguisher(models.Model):
 
     def __str__(self):
         return f"{self.code} - ({self.type})"
+
+    class Meta:
+        verbose_name = _("Fire Extinguisher")
+        verbose_name_plural = _("Fire Extinguishers")
