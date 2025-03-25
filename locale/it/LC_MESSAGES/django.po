@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 07:00+0000\n"
+"POT-Creation-Date: 2025-03-25 07:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -66,7 +66,7 @@ msgstr "Posizione"
 msgid "Active/Inactive"
 msgstr "Attivo/Inattivo"
 
-#: extinguisher/models.py:24
+#: extinguisher/models.py:24 owner/apps.py:7 owner/models.py:15
 msgid "Owner"
 msgstr "Proprietario"
 
@@ -77,6 +77,30 @@ msgstr "Estintore"
 #: extinguisher/models.py:31
 msgid "Fire Extinguishers"
 msgstr "Estintori"
+
+#: owner/models.py:5
+msgid "Owner Name"
+msgstr "Proprietario"
+
+#: owner/models.py:6
+msgid "Address"
+msgstr "Indirizzo"
+
+#: owner/models.py:7
+msgid "Phone Number"
+msgstr "Numero di telefono"
+
+#: owner/models.py:8
+msgid "Email"
+msgstr "Email"
+
+#: owner/models.py:9
+msgid "Is a Company?"
+msgstr "È un'azienda?"
+
+#: owner/models.py:16
+msgid "Owners"
+msgstr "Proprietari"
 
 #: venv/lib/python3.13/site-packages/django/contrib/messages/apps.py:15
 msgid "Messages"
