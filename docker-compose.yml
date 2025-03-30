@@ -1,0 +1,35 @@
+version: '3.9'
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: estintori
+      POSTGRES_USER: estintori_user
+      POSTGRES_PASSWORD: estintori_pass
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: always
+
+  web:
+    build: .
+    command: >
+      sh -c "python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      DEBUG: "1"
+      DJANGO_ALLOWED_HOSTS: "*"
+      DB_NAME: estintori
+      DB_USER: estintori_user
+      DB_PASSWORD: estintori_pass
+      DB_HOST: db
+      DB_PORT: 5432
+
+volumes:
+  postgres_data:
