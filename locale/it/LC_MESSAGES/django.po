@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-25 07:14+0000\n"
+"POT-Creation-Date: 2025-04-23 05:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,43 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: electric/models.py:6
+msgid "Panel Code"
+msgstr "Codice di panello"
+
+#: electric/models.py:7
+msgid "Installation Date"
+msgstr "Data di installazione"
+
+#: electric/models.py:8
+msgid "Last Maintenance"
+msgstr "Data Prossima Manutenzione"
+
+#: electric/models.py:9
+msgid "Next Maintenance"
+msgstr "Data Prossima Manutenzione"
+
+#: electric/models.py:10 extinguisher/models.py:21
+msgid "Location"
+msgstr "Posizione"
+
+#: electric/models.py:11 extinguisher/models.py:22
+msgid "Active/Inactive"
+msgstr "Attivo/Inattivo"
+
+#: electric/models.py:13 extinguisher/models.py:24 owner/apps.py:7
+#: owner/models.py:15
+msgid "Owner"
+msgstr "Proprietario"
+
+#: electric/models.py:19
+msgid "Electric Panel"
+msgstr "Quadro Elettrico"
+
+#: electric/models.py:20
+msgid "Electric Panels"
+msgstr "Quadri Elettrici"
 
 #: estintori/settings.py:111
 msgid "English"
@@ -57,18 +94,6 @@ msgstr "Scadenza Collaudo"
 #: extinguisher/models.py:20
 msgid "Next Maintenance Date"
 msgstr "Data Prossima Manutenzione"
-
-#: extinguisher/models.py:21
-msgid "Location"
-msgstr "Posizione"
-
-#: extinguisher/models.py:22
-msgid "Active/Inactive"
-msgstr "Attivo/Inattivo"
-
-#: extinguisher/models.py:24 owner/apps.py:7 owner/models.py:15
-msgid "Owner"
-msgstr "Proprietario"
 
 #: extinguisher/models.py:30
 msgid "Fire Extinguisher"
