@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+<head>
+    {% load i18n %}
+    <meta charset="UTF-8">
+    <title>{% trans "Company Safety Management" %}</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        a {
+            color: #bb86fc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            color: #bb86fc;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <h1>{% trans "Welcome to the company management platform!" %}</h1>
+
+    <p>{% trans "This application helps you monitor:" %}</p>
+
+    <ul>
+        <li>{% trans "Fire Extinguishers" %}</li>
+        <li>{% trans "Electrical Panels" %}</li>
+        <li>{% trans "Other devices in the future" %}</li>
+    </ul>
+
+    <p>{% trans "All management operations can be performed through the" %}
+        <strong><a href="/admin/">{% trans "Admin Panel" %}</a></strong>.
+    </p>
+
+    <p><em>{% trans "Log in to the admin area to get started!" %}</em></p>
+</body>
+</html>

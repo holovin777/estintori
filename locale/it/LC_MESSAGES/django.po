@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-23 05:24+0000\n"
+"POT-Creation-Date: 2025-04-29 06:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,6 +17,44 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: core/templates/core/home.html:5
+msgid "Company Safety Management"
+msgstr "Gestione Sicurezza Aziendale"
+
+#: core/templates/core/home.html:33
+msgid "Welcome to the company management platform!"
+msgstr "Benvenuto nella piattaforma di gestione aziendale!"
+
+#: core/templates/core/home.html:35
+msgid "This application helps you monitor:"
+msgstr "Questa applicazione ti aiuta a monitorare:"
+
+#: core/templates/core/home.html:38 extinguisher/models.py:31
+msgid "Fire Extinguishers"
+msgstr "Estintori"
+
+#: core/templates/core/home.html:39
+#, fuzzy
+#| msgid "Electric Panels"
+msgid "Electrical Panels"
+msgstr "Quadri Elettrici"
+
+#: core/templates/core/home.html:40
+msgid "Other devices in the future"
+msgstr "Altri dispositivi in futuro"
+
+#: core/templates/core/home.html:43
+msgid "All management operations can be performed through the"
+msgstr "Tutte le operazioni di gestione possono essere eseguite tramite il"
+
+#: core/templates/core/home.html:44
+msgid "Admin Panel"
+msgstr "Pannello di Amministrazione"
+
+#: core/templates/core/home.html:47
+msgid "Log in to the admin area to get started!"
+msgstr "Accedi all'area amministrativa per iniziare!"
 
 #: electric/models.py:6
 msgid "Panel Code"
@@ -55,11 +93,11 @@ msgstr "Quadro Elettrico"
 msgid "Electric Panels"
 msgstr "Quadri Elettrici"
 
-#: estintori/settings.py:111
+#: estintori/settings.py:113
 msgid "English"
 msgstr "Inglese"
 
-#: estintori/settings.py:112
+#: estintori/settings.py:114
 msgid "Italiano"
 msgstr "Italiano"
 
@@ -98,10 +136,6 @@ msgstr "Data Prossima Manutenzione"
 #: extinguisher/models.py:30
 msgid "Fire Extinguisher"
 msgstr "Estintore"
-
-#: extinguisher/models.py:31
-msgid "Fire Extinguishers"
-msgstr "Estintori"
 
 #: owner/models.py:5
 msgid "Owner Name"
