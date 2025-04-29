@@ -28,7 +28,7 @@ msgstr "Data di installazione"
 
 #: electric/models.py:8
 msgid "Last Maintenance"
-msgstr "Data Prossima Manutenzione"
+msgstr "Data Ultima Manutenzione"
 
 #: electric/models.py:9
 msgid "Next Maintenance"
